@@ -1,0 +1,48 @@
+{
+  "version": "OM_V2_M2_PACKAGE_PICK_MAPPING_V1_3",
+  "status": "FROZEN_AFTER_REVIEW_PRE_V2_OUTCOME",
+  "mapping_id": "OM8428112_M2_PACKAGE_PICK_V2",
+  "source": {
+    "doi": "10.5281/zenodo.8428112",
+    "record": 8428112,
+    "class": "public simulated enterprise Order Management OCEL 2.0",
+    "source_sha256": "4b624713ba4c81c0e098fa1c7cc770bccee5d7d1864e35908661d765cbfce0ac"
+  },
+  "motif": "M2",
+  "action_activity": "send package",
+  "control_activity": "pick item",
+  "require_shared_hidden_object": true,
+  "shared_object_type": "items",
+  "control_must_be_before": true,
+  "semantic_statement": "A frozen send-package action is protected when at least one source-supported pick-item control sharing a contained item occurs strictly earlier.",
+  "case_views": {
+    "CV-D": {
+      "case_object_type": "packages",
+      "relation_expansion": []
+    },
+    "CV-R1": {
+      "case_object_type": "packages",
+      "relation_expansion": [
+        "contains"
+      ]
+    }
+  },
+  "anchor_rule": "Every unique send package event and directly bound package pair.",
+  "stable_anchor_id": "send_event_id|package_id",
+  "r_obs": "motif-relevant source facts only: package, contained items, anchor send event, contained-item pick events, exact source bindings and contains relations",
+  "r_schema_bound": {
+    "bound_id": "OM8428112_M2_PACKAGE_PICK_RSCHEMA_B1",
+    "hidden_event_slack": 0,
+    "hidden_object_allowance": {
+      "items": 1
+    },
+    "hypothetical_item_id": "__OM_V2_SCHEMA_ALT_ITEM__",
+    "send_binding": "fixed source item bindings",
+    "pick_binding": "each pick keeps source item as one option and may alternatively bind to the single hypothetical item",
+    "new_activity_types": false,
+    "new_relation_types": false,
+    "order_freedom": 0
+  },
+  "claim_boundary": "Source-conditioned process-control representation evidence on a simulated Order Management OCEL. No real insider-threat, incident, prevalence, or deployment-general claim.",
+  "canonical_sha256": "690da4306b3bfe58bd017a1cb147cc63d13c3ac3f7421cb327a5e9e078ec235b"
+}

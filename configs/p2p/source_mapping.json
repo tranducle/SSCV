@@ -1,0 +1,28 @@
+{
+  "version": "P2P_M2_SOURCE_MAPPING_V1_3",
+  "mapping_id": "P2P8412920_M2_PR_APPROVAL_TO_PO_ANCHORED_V1_3",
+  "base_mapping_id": "P2P8412920_M2_PR_APPROVAL_TO_PO_V1",
+  "base_mapping_sha256": "dd3c70b82d8e91a6dc110eb95e2fdc8ec615ae56901d0f01fa838a93e6510167",
+  "frozen_date": "2026-09-11",
+  "outcome_blind": true,
+  "motif_family": "M2",
+  "anchor_binding": {
+    "motif_variable": "e_s",
+    "source_event": "the frozen Create Purchase Order event in stable_anchor_id",
+    "stable_anchor_id_rule": "event_id|quotation_id",
+    "motif_parameter": "anchor_event_id",
+    "missing_anchor_policy": "unknown:anchor_event_not_in_audit_instance"
+  },
+  "control_activity": "Approve Purchase Requisition",
+  "controlled_action_activity": "Create Purchase Order",
+  "case_object_type": "quotation",
+  "cv_d": "direct event-to-quotation incidence",
+  "cv_r1_relation_qualifiers": [
+    "Quotation of PR"
+  ],
+  "r_obs_neighborhood": "quotation-pr plus event-object closure",
+  "temporal_semantics": "strict precedence only when source timestamp is strictly earlier; equal timestamps are unordered",
+  "reason": "A quotation may contain multiple Create Purchase Order events. Each pre-frozen audit anchor must bind M2 sensitive-event variable e_s to its own event rather than allow another action in the same quotation case to determine the anchor verdict.",
+  "claim_boundary": "This is an audit-unit binding clarification, not a new motif family and not an outcome-selected rule.",
+  "canonical_sha256": "4d26ca40d17c9b8ece987cbbdd9693795e4357ebe82bbb10d0ccbc05dfe3ec1e"
+}

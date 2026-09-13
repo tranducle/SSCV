@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Downloaded / normalized public data
+data/
+
+# Generated experiment outputs
+results/
+*.log

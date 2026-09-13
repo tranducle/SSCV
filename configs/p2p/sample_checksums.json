@@ -1,0 +1,17 @@
+{
+  "version": "P2P_M2_SAMPLING_FREEZE_HASHES_V1_2",
+  "source_version": "10.5281/zenodo.8412920|version:1.0|json-md5:26a8a29333c191d239a7b0fdc44b818f",
+  "candidate_count": 1598,
+  "e8_count": 500,
+  "e9_count": 100,
+  "canonical_json_sha256": {
+    "candidates": "3e5e7773f0a3d6f2cb069cf314c6d54fd41eb8bd1ad1bae1c94c6d301ba55411",
+    "e8": "e0b7f3615ff76946b2d79b769d5f268ce4cb04b84a3c9014989aad6e83258199",
+    "e9": "0a6406da82eed4e05dd2376f66d3365f40f27ff86423a02e2ff7c75d3a0db34f"
+  },
+  "files": {
+    "candidates": "not_distributed",
+    "e8": "configs/p2p/evaluation_sample.json",
+    "e9": "configs/p2p/schema_stress_sample.json"
+  }
+}

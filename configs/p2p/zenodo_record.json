@@ -1,0 +1,165 @@
+﻿{
+    "created":  "2023-10-06T07:57:16.040188+00:00",
+    "modified":  "2026-06-15T10:08:56.555348+00:00",
+    "id":  8412920,
+    "conceptrecid":  "8412919",
+    "doi":  "10.5281/zenodo.8412920",
+    "conceptdoi":  "10.5281/zenodo.8412919",
+    "doi_url":  "https://doi.org/10.5281/zenodo.8412920",
+    "metadata":  {
+                     "title":  "Procure-To-Payment (P2P) Object-centric Event Log in OCEL 2.0 Standard",
+                     "doi":  "10.5281/zenodo.8412920",
+                     "publication_date":  "2023-10-06",
+                     "description":  "\u003cp\u003e\u003cstrong\u003eShort Description\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003eThis process describes the Procure-To-Pay (P2P) procedure within an organization, starting from the initiation of a purchase requirement up to the execution of payment. This simulation extensively uses genuine SAP transactions and object types to offer a realistic representation of the P2P process.\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eOverview\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003eWithin our simulated organization:\u003c/p\u003e\n\n\u003cul\u003e\n\t\u003cli\u003e\n\t\u003cp\u003eProcurement Initiatives: The procurement journey begins when a department or individual recognizes a need and creates a Purchase Requisition using transaction ME51N.\u003c/p\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\n\t\u003cp\u003eApproval Process: Before the purchase can proceed, the requisition must be approved. This is carried out using transaction ME54N. Given the nature of our simulation, there may be instances where the approval process takes an unusually long time, exemplifying the Lengthy Approval Process behavior.\u003c/p\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\n\t\u003cp\u003eVendor Interactions:\u003c/p\u003e\n\n\t\u003cul\u003e\n\t\t\u003cli\u003eUpon approval, a Request for Quotation is sent out to potential vendors using transaction ME41.\u003c/li\u003e\n\t\t\u003cli\u003eVendors then submit their quotations, which are maintained in the system using transaction ME47.\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\n\t\u003cp\u003ePurchase Order Creation: Once a vendor\u0026#39;s quotation is selected, a Purchase Order is created using transaction ME21N. The purchase order is then subjected to an internal approval process (ME29N). Occasionally, maverick buying\u0026mdash;where purchases are made without proper authorization\u0026mdash;can be observed.\u003c/p\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\n\t\u003cp\u003eGoods \u0026amp; Invoice Management:\u003c/p\u003e\n\n\t\u003cul\u003e\n\t\t\u003cli\u003eWhen the goods are received, a Goods Receipt is recorded using transaction MIGO.\u003c/li\u003e\n\t\t\u003cli\u003eInvoices from vendors are then received and recorded. A three-way match, which checks the purchase order, goods receipt, and invoice for discrepancies, is performed using transaction MRBR.\u003c/li\u003e\n\t\u003c/ul\u003e\n\t\u003c/li\u003e\n\t\u003cli\u003e\n\t\u003cp\u003ePayment: Once everything is verified, payments are executed using transaction F110. However, there may be instances of Duplicate Payments in our simulation, where the system mistakenly pays the same invoice more than once.\u003c/p\u003e\n\t\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cp\u003e\u003cstrong\u003eSpecial Behaviors:\u003c/strong\u003e\u003c/p\u003e\n\n\u003cul\u003e\n\t\u003cli\u003eMaverick Buying: Unauthorized purchases, bypassing the standard procedure.\u003c/li\u003e\n\t\u003cli\u003eDuplicate Payments: An error leading to the same invoice being paid multiple times.\u003c/li\u003e\n\t\u003cli\u003eLengthy Approval Process: Delays in approving purchase requisitions or purchase orders, which might lead to operational inefficiencies.\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cp\u003e\u003cstrong\u003eGeneral Properties\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003eAn overview of log properties is given below.\u003c/p\u003e\n\n\u003ctable\u003e\n\t\n\t\t\u003ctbody\u003e\u003ctr\u003e\n\t\t\t\u003cth\u003eProperty\u003c/th\u003e\n\t\t\t\u003cth\u003eValue\u003c/th\u003e\n\t\t\u003c/tr\u003e\n\t\n\t\u003c/tbody\u003e\u003ctbody\u003e\n\t\t\u003ctr\u003e\n\t\t\t\u003ctd\u003eEvent Types\u003c/td\u003e\n\t\t\t\u003ctd\u003e10\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\u003ctr\u003e\n\t\t\t\u003ctd\u003eObject Types\u003c/td\u003e\n\t\t\t\u003ctd\u003e7\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\u003ctr\u003e\n\t\t\t\u003ctd\u003eEvents\u003c/td\u003e\n\t\t\t\u003ctd\u003e14671\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\u003ctr\u003e\n\t\t\t\u003ctd\u003eObjects\u003c/td\u003e\n\t\t\t\u003ctd\u003e9543\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\u003c/tbody\u003e\n\u003c/table\u003e\n\n\u003cp\u003e\u003cstrong\u003eAuthors\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003eGyunam Park and Leah Tacke genannt Unterberg\u003c/p\u003e\n\n\u003cp\u003e\u003cstrong\u003eContributing\u003c/strong\u003e\u003c/p\u003e\n\n\u003cp\u003eTo contribute, drop us an email! We are happy to receive your feedback.\u003c/p\u003e",
+                     "access_right":  "open",
+                     "creators":  [
+                                      {
+                                          "name":  "Park, Gyunam",
+                                          "affiliation":  "RWTH Aachen University",
+                                          "orcid":  "0000-0001-9394-6513"
+                                      },
+                                      {
+                                          "name":  "Leah Tacke, genannt Unterberg",
+                                          "affiliation":  "RWTH Aachen University"
+                                      }
+                                  ],
+                     "contributors":  [
+                                          {
+                                              "name":  "Berti, Alessandro",
+                                              "affiliation":  "RWTH Aachen University",
+                                              "type":  "Editor",
+                                              "orcid":  "0000-0002-3279-4795"
+                                          }
+                                      ],
+                     "keywords":  [
+                                      "Object-Centric Event Log",
+                                      "OCEL",
+                                      "OCEL 2.0",
+                                      "Process Mining",
+                                      "Object-Centric Process Mining"
+                                  ],
+                     "version":  "1.0",
+                     "language":  "eng",
+                     "resource_type":  {
+                                           "title":  "Dataset",
+                                           "type":  "dataset"
+                                       },
+                     "license":  {
+                                     "id":  "cc-by-4.0"
+                                 },
+                     "communities":  [
+                                         {
+                                             "id":  "rwth-pads"
+                                         }
+                                     ],
+                     "relations":  {
+                                       "version":  [
+                                                       {
+                                                           "index":  0,
+                                                           "is_last":  true,
+                                                           "parent":  {
+                                                                          "pid_type":  "recid",
+                                                                          "pid_value":  "8412919"
+                                                                      }
+                                                       }
+                                                   ]
+                                   }
+                 },
+    "title":  "Procure-To-Payment (P2P) Object-centric Event Log in OCEL 2.0 Standard",
+    "links":  {
+                  "self":  "https://zenodo.org/api/records/8412920",
+                  "self_html":  "https://zenodo.org/records/8412920",
+                  "preview_html":  "https://zenodo.org/records/8412920?preview=1",
+                  "doi":  "https://doi.org/10.5281/zenodo.8412920",
+                  "self_doi":  "https://doi.org/10.5281/zenodo.8412920",
+                  "self_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.8412920",
+                  "reserve_doi":  "https://zenodo.org/api/records/8412920/draft/pids/doi",
+                  "parent":  "https://zenodo.org/api/records/8412919",
+                  "parent_html":  "https://zenodo.org/records/8412919",
+                  "parent_doi":  "https://doi.org/10.5281/zenodo.8412919",
+                  "parent_doi_html":  "https://zenodo.org/doi/10.5281/zenodo.8412919",
+                  "self_iiif_manifest":  "https://zenodo.org/api/iiif/record:8412920/manifest",
+                  "self_iiif_sequence":  "https://zenodo.org/api/iiif/record:8412920/sequence/default",
+                  "files":  "https://zenodo.org/api/records/8412920/files",
+                  "media_files":  "https://zenodo.org/api/records/8412920/media-files",
+                  "archive":  "https://zenodo.org/api/records/8412920/files-archive",
+                  "archive_media":  "https://zenodo.org/api/records/8412920/media-files-archive",
+                  "latest":  "https://zenodo.org/api/records/8412920/versions/latest",
+                  "latest_html":  "https://zenodo.org/records/8412920/latest",
+                  "versions":  "https://zenodo.org/api/records/8412920/versions",
+                  "draft":  "https://zenodo.org/api/records/8412920/draft",
+                  "access_links":  "https://zenodo.org/api/records/8412920/access/links",
+                  "access_grants":  "https://zenodo.org/api/records/8412920/access/grants",
+                  "access_users":  "https://zenodo.org/api/records/8412920/access/users",
+                  "access_request":  "https://zenodo.org/api/records/8412920/access/request",
+                  "access":  "https://zenodo.org/api/records/8412920/access",
+                  "communities":  "https://zenodo.org/api/records/8412920/communities",
+                  "communities-suggestions":  "https://zenodo.org/api/records/8412920/communities-suggestions",
+                  "request_deletion":  "https://zenodo.org/api/records/8412920/request-deletion",
+                  "file_modification":  "https://zenodo.org/api/records/8412920/file-modification",
+                  "quota_increase":  "https://zenodo.org/api/records/8412920/quota-increase",
+                  "requests":  "https://zenodo.org/api/records/8412920/requests"
+              },
+    "updated":  "2026-06-15T10:08:56.555348+00:00",
+    "recid":  "8412920",
+    "revision":  7,
+    "files":  [
+                  {
+                      "id":  "e66731d8-6ec4-4c13-a8a3-208e9408b381",
+                      "key":  "ocel2-p2p.json",
+                      "size":  14263783,
+                      "checksum":  "md5:26a8a29333c191d239a7b0fdc44b818f",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/8412920/files/ocel2-p2p.json/content"
+                                }
+                  },
+                  {
+                      "id":  "122d0d8d-91d1-4385-b23f-2555eceb44a0",
+                      "key":  "ocel2-p2p.xml",
+                      "size":  18439773,
+                      "checksum":  "md5:cb50e3ef18bda7f843dad00f4ec42123",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/8412920/files/ocel2-p2p.xml/content"
+                                }
+                  },
+                  {
+                      "id":  "2bf6ce2a-7c7a-4fb4-8bc5-54c6b660fedd",
+                      "key":  "ocel2-p2p.sqlite",
+                      "size":  13746176,
+                      "checksum":  "md5:1a4238260019939239488b0b4befb515",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/8412920/files/ocel2-p2p.sqlite/content"
+                                }
+                  },
+                  {
+                      "id":  "5e6e073b-caa7-45a3-b8f4-bd2b7d60f83d",
+                      "key":  "ocel2-export.xml",
+                      "size":  18439773,
+                      "checksum":  "md5:cb50e3ef18bda7f843dad00f4ec42123",
+                      "links":  {
+                                    "self":  "https://zenodo.org/api/records/8412920/files/ocel2-export.xml/content"
+                                }
+                  }
+              ],
+    "swh":  {
+
+            },
+    "owners":  [
+                   {
+                       "id":  "618457"
+                   }
+               ],
+    "status":  "published",
+    "stats":  {
+                  "downloads":  3900,
+                  "unique_downloads":  3397,
+                  "views":  3338,
+                  "unique_views":  2899,
+                  "version_downloads":  3884,
+                  "version_unique_downloads":  3390,
+                  "version_unique_views":  2881,
+                  "version_views":  3314
+              },
+    "state":  "done",
+    "submitted":  true
+}

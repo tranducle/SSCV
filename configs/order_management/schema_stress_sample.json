@@ -1,0 +1,710 @@
+{
+  "version": "OM_V2_M2_E9_SAMPLE_V1_3",
+  "status": "FROZEN_AFTER_REVIEW_PRE_V2_OUTCOME",
+  "kind": "e9",
+  "domain": "SSCV-OM-V2-PACKAGE-PICK-E9-V1.3",
+  "anchor_count": 100,
+  "anchors": [
+    {
+      "stable_anchor_id": "send_p-660525|p-660525",
+      "send_event_id": "send_p-660525",
+      "package_id": "p-660525",
+      "send_time": "2023-09-27 09:43:45",
+      "contained_item_count": 2
+    },
+    {
+      "stable_anchor_id": "send_p-660467|p-660467",
+      "send_event_id": "send_p-660467",
+      "package_id": "p-660467",
+      "send_time": "2023-09-11 11:55:52",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660508|p-660508",
+      "send_event_id": "send_p-660508",
+      "package_id": "p-660508",
+      "send_time": "2023-09-21 10:22:53",
+      "contained_item_count": 2
+    },
+    {
+      "stable_anchor_id": "send_p-661069|p-661069",
+      "send_event_id": "send_p-661069",
+      "package_id": "p-661069",
+      "send_time": "2024-03-13 11:03:09",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660635|p-660635",
+      "send_event_id": "send_p-660635",
+      "package_id": "p-660635",
+      "send_time": "2023-10-31 10:44:56",
+      "contained_item_count": 13
+    },
+    {
+      "stable_anchor_id": "send_p-660160|p-660160",
+      "send_event_id": "send_p-660160",
+      "package_id": "p-660160",
+      "send_time": "2023-06-12 15:52:32",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660694|p-660694",
+      "send_event_id": "send_p-660694",
+      "package_id": "p-660694",
+      "send_time": "2023-11-16 17:56:34",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660945|p-660945",
+      "send_event_id": "send_p-660945",
+      "package_id": "p-660945",
+      "send_time": "2024-02-01 15:13:25",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660589|p-660589",
+      "send_event_id": "send_p-660589",
+      "package_id": "p-660589",
+      "send_time": "2023-10-16 15:42:46",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660071|p-660071",
+      "send_event_id": "send_p-660071",
+      "package_id": "p-660071",
+      "send_time": "2023-05-18 11:04:43",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660218|p-660218",
+      "send_event_id": "send_p-660218",
+      "package_id": "p-660218",
+      "send_time": "2023-06-28 15:54:05",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660442|p-660442",
+      "send_event_id": "send_p-660442",
+      "package_id": "p-660442",
+      "send_time": "2023-09-04 15:09:33",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660091|p-660091",
+      "send_event_id": "send_p-660091",
+      "package_id": "p-660091",
+      "send_time": "2023-05-24 10:50:04",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660812|p-660812",
+      "send_event_id": "send_p-660812",
+      "package_id": "p-660812",
+      "send_time": "2023-12-22 11:55:00",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660736|p-660736",
+      "send_event_id": "send_p-660736",
+      "package_id": "p-660736",
+      "send_time": "2023-11-30 21:01:59",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660661|p-660661",
+      "send_event_id": "send_p-660661",
+      "package_id": "p-660661",
+      "send_time": "2023-11-08 16:13:23",
+      "contained_item_count": 12
+    },
+    {
+      "stable_anchor_id": "send_p-660713|p-660713",
+      "send_event_id": "send_p-660713",
+      "package_id": "p-660713",
+      "send_time": "2023-11-23 15:10:21",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660353|p-660353",
+      "send_event_id": "send_p-660353",
+      "package_id": "p-660353",
+      "send_time": "2023-08-09 09:47:49",
+      "contained_item_count": 16
+    },
+    {
+      "stable_anchor_id": "send_p-660037|p-660037",
+      "send_event_id": "send_p-660037",
+      "package_id": "p-660037",
+      "send_time": "2023-05-08 10:28:27",
+      "contained_item_count": 10
+    },
+    {
+      "stable_anchor_id": "send_p-660603|p-660603",
+      "send_event_id": "send_p-660603",
+      "package_id": "p-660603",
+      "send_time": "2023-10-20 10:58:24",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660623|p-660623",
+      "send_event_id": "send_p-660623",
+      "package_id": "p-660623",
+      "send_time": "2023-10-26 11:21:48",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660007|p-660007",
+      "send_event_id": "send_p-660007",
+      "package_id": "p-660007",
+      "send_time": "2023-04-17 16:21:13",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660465|p-660465",
+      "send_event_id": "send_p-660465",
+      "package_id": "p-660465",
+      "send_time": "2023-09-11 15:23:29",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660016|p-660016",
+      "send_event_id": "send_p-660016",
+      "package_id": "p-660016",
+      "send_time": "2023-04-24 12:31:08",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-661122|p-661122",
+      "send_event_id": "send_p-661122",
+      "package_id": "p-661122",
+      "send_time": "2024-05-02 10:53:16",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660746|p-660746",
+      "send_event_id": "send_p-660746",
+      "package_id": "p-660746",
+      "send_time": "2023-12-04 08:38:17",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660199|p-660199",
+      "send_event_id": "send_p-660199",
+      "package_id": "p-660199",
+      "send_time": "2023-06-23 09:54:38",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660567|p-660567",
+      "send_event_id": "send_p-660567",
+      "package_id": "p-660567",
+      "send_time": "2023-10-10 16:07:38",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660427|p-660427",
+      "send_event_id": "send_p-660427",
+      "package_id": "p-660427",
+      "send_time": "2023-08-31 16:13:32",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660638|p-660638",
+      "send_event_id": "send_p-660638",
+      "package_id": "p-660638",
+      "send_time": "2023-11-01 16:18:26",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660934|p-660934",
+      "send_event_id": "send_p-660934",
+      "package_id": "p-660934",
+      "send_time": "2024-01-30 10:50:19",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660771|p-660771",
+      "send_event_id": "send_p-660771",
+      "package_id": "p-660771",
+      "send_time": "2023-12-11 17:17:41",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-661085|p-661085",
+      "send_event_id": "send_p-661085",
+      "package_id": "p-661085",
+      "send_time": "2024-03-19 09:22:37",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660874|p-660874",
+      "send_event_id": "send_p-660874",
+      "package_id": "p-660874",
+      "send_time": "2024-01-09 16:54:15",
+      "contained_item_count": 17
+    },
+    {
+      "stable_anchor_id": "send_p-660266|p-660266",
+      "send_event_id": "send_p-660266",
+      "package_id": "p-660266",
+      "send_time": "2023-07-13 10:32:46",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660086|p-660086",
+      "send_event_id": "send_p-660086",
+      "package_id": "p-660086",
+      "send_time": "2023-05-23 14:05:42",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660010|p-660010",
+      "send_event_id": "send_p-660010",
+      "package_id": "p-660010",
+      "send_time": "2023-04-18 17:30:41",
+      "contained_item_count": 10
+    },
+    {
+      "stable_anchor_id": "send_p-660960|p-660960",
+      "send_event_id": "send_p-660960",
+      "package_id": "p-660960",
+      "send_time": "2024-02-07 11:40:33",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660116|p-660116",
+      "send_event_id": "send_p-660116",
+      "package_id": "p-660116",
+      "send_time": "2023-05-30 15:57:52",
+      "contained_item_count": 10
+    },
+    {
+      "stable_anchor_id": "send_p-660909|p-660909",
+      "send_event_id": "send_p-660909",
+      "package_id": "p-660909",
+      "send_time": "2024-01-22 10:27:02",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660421|p-660421",
+      "send_event_id": "send_p-660421",
+      "package_id": "p-660421",
+      "send_time": "2023-08-30 16:05:07",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660120|p-660120",
+      "send_event_id": "send_p-660120",
+      "package_id": "p-660120",
+      "send_time": "2023-05-31 09:37:13",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660890|p-660890",
+      "send_event_id": "send_p-660890",
+      "package_id": "p-660890",
+      "send_time": "2024-01-16 15:06:40",
+      "contained_item_count": 2
+    },
+    {
+      "stable_anchor_id": "send_p-660062|p-660062",
+      "send_event_id": "send_p-660062",
+      "package_id": "p-660062",
+      "send_time": "2023-05-16 11:24:20",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-661040|p-661040",
+      "send_event_id": "send_p-661040",
+      "package_id": "p-661040",
+      "send_time": "2024-03-06 10:23:58",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-661042|p-661042",
+      "send_event_id": "send_p-661042",
+      "package_id": "p-661042",
+      "send_time": "2024-03-05 11:47:22",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-661052|p-661052",
+      "send_event_id": "send_p-661052",
+      "package_id": "p-661052",
+      "send_time": "2024-03-08 15:48:27",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-661080|p-661080",
+      "send_event_id": "send_p-661080",
+      "package_id": "p-661080",
+      "send_time": "2024-03-15 14:59:14",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660570|p-660570",
+      "send_event_id": "send_p-660570",
+      "package_id": "p-660570",
+      "send_time": "2023-10-10 17:17:31",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660354|p-660354",
+      "send_event_id": "send_p-660354",
+      "package_id": "p-660354",
+      "send_time": "2023-08-11 10:46:13",
+      "contained_item_count": 10
+    },
+    {
+      "stable_anchor_id": "send_p-660501|p-660501",
+      "send_event_id": "send_p-660501",
+      "package_id": "p-660501",
+      "send_time": "2023-09-19 09:59:05",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660851|p-660851",
+      "send_event_id": "send_p-660851",
+      "package_id": "p-660851",
+      "send_time": "2024-01-02 17:13:31",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660682|p-660682",
+      "send_event_id": "send_p-660682",
+      "package_id": "p-660682",
+      "send_time": "2023-11-14 18:16:53",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660237|p-660237",
+      "send_event_id": "send_p-660237",
+      "package_id": "p-660237",
+      "send_time": "2023-07-04 16:44:24",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660519|p-660519",
+      "send_event_id": "send_p-660519",
+      "package_id": "p-660519",
+      "send_time": "2023-09-25 11:20:05",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660081|p-660081",
+      "send_event_id": "send_p-660081",
+      "package_id": "p-660081",
+      "send_time": "2023-05-19 12:55:55",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-661046|p-661046",
+      "send_event_id": "send_p-661046",
+      "package_id": "p-661046",
+      "send_time": "2024-03-06 18:03:31",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660029|p-660029",
+      "send_event_id": "send_p-660029",
+      "package_id": "p-660029",
+      "send_time": "2023-05-03 18:27:58",
+      "contained_item_count": 2
+    },
+    {
+      "stable_anchor_id": "send_p-660662|p-660662",
+      "send_event_id": "send_p-660662",
+      "package_id": "p-660662",
+      "send_time": "2023-11-08 12:26:44",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660667|p-660667",
+      "send_event_id": "send_p-660667",
+      "package_id": "p-660667",
+      "send_time": "2023-11-09 17:37:04",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660496|p-660496",
+      "send_event_id": "send_p-660496",
+      "package_id": "p-660496",
+      "send_time": "2023-09-19 08:50:48",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660118|p-660118",
+      "send_event_id": "send_p-660118",
+      "package_id": "p-660118",
+      "send_time": "2023-05-31 13:19:15",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660799|p-660799",
+      "send_event_id": "send_p-660799",
+      "package_id": "p-660799",
+      "send_time": "2023-12-19 15:05:21",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660179|p-660179",
+      "send_event_id": "send_p-660179",
+      "package_id": "p-660179",
+      "send_time": "2023-06-19 09:53:09",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660485|p-660485",
+      "send_event_id": "send_p-660485",
+      "package_id": "p-660485",
+      "send_time": "2023-09-14 13:41:56",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660316|p-660316",
+      "send_event_id": "send_p-660316",
+      "package_id": "p-660316",
+      "send_time": "2023-07-27 16:10:38",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660558|p-660558",
+      "send_event_id": "send_p-660558",
+      "package_id": "p-660558",
+      "send_time": "2023-10-06 14:51:32",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-661063|p-661063",
+      "send_event_id": "send_p-661063",
+      "package_id": "p-661063",
+      "send_time": "2024-03-12 12:47:05",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660765|p-660765",
+      "send_event_id": "send_p-660765",
+      "package_id": "p-660765",
+      "send_time": "2023-12-08 15:31:41",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660365|p-660365",
+      "send_event_id": "send_p-660365",
+      "package_id": "p-660365",
+      "send_time": "2023-08-14 14:34:30",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660440|p-660440",
+      "send_event_id": "send_p-660440",
+      "package_id": "p-660440",
+      "send_time": "2023-09-05 10:23:24",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660526|p-660526",
+      "send_event_id": "send_p-660526",
+      "package_id": "p-660526",
+      "send_time": "2023-09-26 16:52:22",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660938|p-660938",
+      "send_event_id": "send_p-660938",
+      "package_id": "p-660938",
+      "send_time": "2024-01-31 10:37:58",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660334|p-660334",
+      "send_event_id": "send_p-660334",
+      "package_id": "p-660334",
+      "send_time": "2023-08-02 18:03:25",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660560|p-660560",
+      "send_event_id": "send_p-660560",
+      "package_id": "p-660560",
+      "send_time": "2023-10-06 16:24:04",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660756|p-660756",
+      "send_event_id": "send_p-660756",
+      "package_id": "p-660756",
+      "send_time": "2023-12-05 18:49:30",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660924|p-660924",
+      "send_event_id": "send_p-660924",
+      "package_id": "p-660924",
+      "send_time": "2024-01-26 12:37:38",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-661084|p-661084",
+      "send_event_id": "send_p-661084",
+      "package_id": "p-661084",
+      "send_time": "2024-03-19 13:22:27",
+      "contained_item_count": 7
+    },
+    {
+      "stable_anchor_id": "send_p-660144|p-660144",
+      "send_event_id": "send_p-660144",
+      "package_id": "p-660144",
+      "send_time": "2023-06-07 14:01:41",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660164|p-660164",
+      "send_event_id": "send_p-660164",
+      "package_id": "p-660164",
+      "send_time": "2023-06-13 14:53:54",
+      "contained_item_count": 1
+    },
+    {
+      "stable_anchor_id": "send_p-661067|p-661067",
+      "send_event_id": "send_p-661067",
+      "package_id": "p-661067",
+      "send_time": "2024-03-12 15:31:59",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660915|p-660915",
+      "send_event_id": "send_p-660915",
+      "package_id": "p-660915",
+      "send_time": "2024-01-23 17:24:21",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660208|p-660208",
+      "send_event_id": "send_p-660208",
+      "package_id": "p-660208",
+      "send_time": "2023-06-26 12:10:42",
+      "contained_item_count": 5
+    },
+    {
+      "stable_anchor_id": "send_p-660514|p-660514",
+      "send_event_id": "send_p-660514",
+      "package_id": "p-660514",
+      "send_time": "2023-09-22 10:37:57",
+      "contained_item_count": 13
+    },
+    {
+      "stable_anchor_id": "send_p-660660|p-660660",
+      "send_event_id": "send_p-660660",
+      "package_id": "p-660660",
+      "send_time": "2023-11-07 16:20:16",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660213|p-660213",
+      "send_event_id": "send_p-660213",
+      "package_id": "p-660213",
+      "send_time": "2023-06-27 14:13:04",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660307|p-660307",
+      "send_event_id": "send_p-660307",
+      "package_id": "p-660307",
+      "send_time": "2023-07-27 09:37:52",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-660764|p-660764",
+      "send_event_id": "send_p-660764",
+      "package_id": "p-660764",
+      "send_time": "2023-12-07 19:36:28",
+      "contained_item_count": 14
+    },
+    {
+      "stable_anchor_id": "send_p-660721|p-660721",
+      "send_event_id": "send_p-660721",
+      "package_id": "p-660721",
+      "send_time": "2023-11-24 18:24:01",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660300|p-660300",
+      "send_event_id": "send_p-660300",
+      "package_id": "p-660300",
+      "send_time": "2023-07-24 15:54:01",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660797|p-660797",
+      "send_event_id": "send_p-660797",
+      "package_id": "p-660797",
+      "send_time": "2023-12-19 15:26:03",
+      "contained_item_count": 6
+    },
+    {
+      "stable_anchor_id": "send_p-661037|p-661037",
+      "send_event_id": "send_p-661037",
+      "package_id": "p-661037",
+      "send_time": "2024-03-04 18:30:46",
+      "contained_item_count": 11
+    },
+    {
+      "stable_anchor_id": "send_p-660857|p-660857",
+      "send_event_id": "send_p-660857",
+      "package_id": "p-660857",
+      "send_time": "2024-01-04 15:13:08",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660596|p-660596",
+      "send_event_id": "send_p-660596",
+      "package_id": "p-660596",
+      "send_time": "2023-10-18 09:39:56",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660066|p-660066",
+      "send_event_id": "send_p-660066",
+      "package_id": "p-660066",
+      "send_time": "2023-05-16 12:58:32",
+      "contained_item_count": 3
+    },
+    {
+      "stable_anchor_id": "send_p-660505|p-660505",
+      "send_event_id": "send_p-660505",
+      "package_id": "p-660505",
+      "send_time": "2023-09-20 17:27:07",
+      "contained_item_count": 12
+    },
+    {
+      "stable_anchor_id": "send_p-660402|p-660402",
+      "send_event_id": "send_p-660402",
+      "package_id": "p-660402",
+      "send_time": "2023-08-25 12:32:25",
+      "contained_item_count": 8
+    },
+    {
+      "stable_anchor_id": "send_p-660777|p-660777",
+      "send_event_id": "send_p-660777",
+      "package_id": "p-660777",
+      "send_time": "2023-12-13 09:29:35",
+      "contained_item_count": 9
+    },
+    {
+      "stable_anchor_id": "send_p-660345|p-660345",
+      "send_event_id": "send_p-660345",
+      "package_id": "p-660345",
+      "send_time": "2023-08-08 14:51:09",
+      "contained_item_count": 4
+    },
+    {
+      "stable_anchor_id": "send_p-660067|p-660067",
+      "send_event_id": "send_p-660067",
+      "package_id": "p-660067",
+      "send_time": "2023-05-16 15:02:05",
+      "contained_item_count": 6
+    }
+  ],
+  "canonical_sha256": "7f1501ad8c53616708de1d13070e582bcacd9c720c5f7ae361fc71359208fd1b"
+}

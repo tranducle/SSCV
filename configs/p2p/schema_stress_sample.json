@@ -1,0 +1,813 @@
+{
+  "version": "P2P_M2_E9_SAMPLE_V1_2",
+  "source_version": "10.5281/zenodo.8412920|version:1.0|json-md5:26a8a29333c191d239a7b0fdc44b818f",
+  "motif_id": "M2",
+  "outcome_blind": true,
+  "stable_anchor_id_rule": "event_id|quotation_id",
+  "sampling_domain": "SSCV-E9-V1.1",
+  "frozen_seed": "SSCV-PUBLIC-SENSITIVITY-20260911",
+  "e8_population_count": 500,
+  "sample_count": 100,
+  "anchors": [
+    {
+      "stable_anchor_id": "event:12656|quotation:406",
+      "event_id": "event:12656",
+      "quotation_id": "quotation:406",
+      "event_time": "2023-05-30T17:06:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "000821fba28515bb3945933985c770bec240291b32638e90c16d5ece5ac773bd"
+    },
+    {
+      "stable_anchor_id": "event:14114|quotation:461",
+      "event_id": "event:14114",
+      "quotation_id": "quotation:461",
+      "event_time": "2023-07-19T16:04:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "002ad45a10a9cb0bfeb1f376dc01a1b74fcf90c7eed1ae4ffc66dcdbc673de71"
+    },
+    {
+      "stable_anchor_id": "event:26851|quotation:853",
+      "event_id": "event:26851",
+      "quotation_id": "quotation:853",
+      "event_time": "2024-07-27T19:29:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "00b4761a0e81eb6137c5e9ee0a4958721e9aa922924a2a4be3b5c03e6b49b543"
+    },
+    {
+      "stable_anchor_id": "event:6886|quotation:224",
+      "event_id": "event:6886",
+      "quotation_id": "quotation:224",
+      "event_time": "2022-10-27T04:28:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "00bb1053dd1f1426babc5be0c85be4755ab57ab2bef4a009cd676ce05badd68c"
+    },
+    {
+      "stable_anchor_id": "event:12875|quotation:418",
+      "event_id": "event:12875",
+      "quotation_id": "quotation:418",
+      "event_time": "2023-06-07T05:18:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0167de311fc8cc542c5e9be2cdceb145ea48f0df079626a4ed96a7a87a6910ab"
+    },
+    {
+      "stable_anchor_id": "event:23111|quotation:732",
+      "event_id": "event:23111",
+      "quotation_id": "quotation:732",
+      "event_time": "2024-04-12T13:16:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "01e7c681899c6124f27b6d0bfb0d5a0ec32f8505958efac94e4ab54af8db8355"
+    },
+    {
+      "stable_anchor_id": "event:3366|quotation:114",
+      "event_id": "event:3366",
+      "quotation_id": "quotation:114",
+      "event_time": "2022-07-25T04:48:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0232299b0e13a05895deb8f70e61b731eb99b576cafb891344c105ce061af96e"
+    },
+    {
+      "stable_anchor_id": "event:12618|quotation:404",
+      "event_id": "event:12618",
+      "quotation_id": "quotation:404",
+      "event_time": "2023-05-30T02:59:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "02568f6a0da76a0c74b82e173790e4b6eb5115f47ba9f6691e1b4a80ff9fb56e"
+    },
+    {
+      "stable_anchor_id": "event:7410|quotation:243",
+      "event_id": "event:7410",
+      "quotation_id": "quotation:243",
+      "event_time": "2022-11-28T17:21:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "037ea203efe4243d2c8394058f4d72d8b21dcdc9ece85e1aee171ff5d1d30135"
+    },
+    {
+      "stable_anchor_id": "event:14293|quotation:465",
+      "event_id": "event:14293",
+      "quotation_id": "quotation:465",
+      "event_time": "2023-07-26T00:57:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "03e94929c72030f7c6a7bbd1a64697429e5ce4a2ebd9546f7f8cb4d640a5a085"
+    },
+    {
+      "stable_anchor_id": "event:28690|quotation:919",
+      "event_id": "event:28690",
+      "quotation_id": "quotation:919",
+      "event_time": "2024-09-27T12:41:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "047007fa5efb25dd550a6191a5831993868b671fdd9d6d6d88ea175f56b4eb73"
+    },
+    {
+      "stable_anchor_id": "event:15963|quotation:523",
+      "event_id": "event:15963",
+      "quotation_id": "quotation:523",
+      "event_time": "2023-09-11T19:43:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "06e927e0839a6b42338a34c0f5d5e58495d628ea7d400e855dc6b0f9bd48dc9c"
+    },
+    {
+      "stable_anchor_id": "event:728|quotation:34",
+      "event_id": "event:728",
+      "quotation_id": "quotation:34",
+      "event_time": "2022-05-06T21:19:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "074a4a139372358e6c0b233b5fb6261a862c82d6042bd8d99029edb598c48f85"
+    },
+    {
+      "stable_anchor_id": "event:21802|quotation:682",
+      "event_id": "event:21802",
+      "quotation_id": "quotation:682",
+      "event_time": "2024-02-27T07:16:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "08d509cc1e1979042e3b81a12de142216cbe9526dc671e1aaa38e53f19d2e78d"
+    },
+    {
+      "stable_anchor_id": "event:5915|quotation:197",
+      "event_id": "event:5915",
+      "quotation_id": "quotation:197",
+      "event_time": "2022-09-25T12:28:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "09a5788d33de2e5e5482c047fe44c707377e419af5e58f46569b312dff574ddd"
+    },
+    {
+      "stable_anchor_id": "event:24513|quotation:788",
+      "event_id": "event:24513",
+      "quotation_id": "quotation:788",
+      "event_time": "2024-05-25T04:11:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "09b1bc15722226c062f2071116da7530bac66dc83deae808bb97ddbe460b664f"
+    },
+    {
+      "stable_anchor_id": "event:13118|quotation:425",
+      "event_id": "event:13118",
+      "quotation_id": "quotation:425",
+      "event_time": "2023-06-14T04:35:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "09c7208f36defbd6848e9aa756bceacf49c471e04b01def87fad31278304349d"
+    },
+    {
+      "stable_anchor_id": "event:28425|quotation:906",
+      "event_id": "event:28425",
+      "quotation_id": "quotation:906",
+      "event_time": "2024-09-22T04:01:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0a0ae6f7cbe60935b67815ce43ae2ea299d615a059b029b6027a043a1ee38386"
+    },
+    {
+      "stable_anchor_id": "event:27320|quotation:868",
+      "event_id": "event:27320",
+      "quotation_id": "quotation:868",
+      "event_time": "2024-08-19T08:19:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0a5b597750451f0cf92fb6ddc127b07f66bf47ee02c32bcfcc42aeea69bb0e92"
+    },
+    {
+      "stable_anchor_id": "event:13458|quotation:422",
+      "event_id": "event:13458",
+      "quotation_id": "quotation:422",
+      "event_time": "2023-06-28T01:06:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0ab963d59ed8a8dbc9e44c996411fbc1eed013afe1f07b88abd882c020c6698b"
+    },
+    {
+      "stable_anchor_id": "event:20034|quotation:644",
+      "event_id": "event:20034",
+      "quotation_id": "quotation:644",
+      "event_time": "2024-01-03T20:42:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0ac741f957875fe147dec95bdb0a1fdb1a69c281b418319db3f731dc331bccb0"
+    },
+    {
+      "stable_anchor_id": "event:13151|quotation:421",
+      "event_id": "event:13151",
+      "quotation_id": "quotation:421",
+      "event_time": "2023-06-15T12:22:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0aedb7a9dbd5e4b01144d0e29888a2ade32e2156fb820d8e1a390343bf1c2410"
+    },
+    {
+      "stable_anchor_id": "event:22395|quotation:710",
+      "event_id": "event:22395",
+      "quotation_id": "quotation:710",
+      "event_time": "2024-03-12T13:09:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0d1240af238669a7f6609a54c33736ca29cd47509fafefb36d1045bf41d25aa9"
+    },
+    {
+      "stable_anchor_id": "event:21273|quotation:674",
+      "event_id": "event:21273",
+      "quotation_id": "quotation:674",
+      "event_time": "2024-02-13T00:22:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0d2e93ebce18c7e75db84e2e9a963542d695c5e11e4e8e0d1177c5ebda52b2d9"
+    },
+    {
+      "stable_anchor_id": "event:7743|quotation:251",
+      "event_id": "event:7743",
+      "quotation_id": "quotation:251",
+      "event_time": "2022-12-15T09:54:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0de11018c87e49653d5380ae293102aa763b9325a223924d9eb0d472eedab7a2"
+    },
+    {
+      "stable_anchor_id": "event:17325|quotation:557",
+      "event_id": "event:17325",
+      "quotation_id": "quotation:557",
+      "event_time": "2023-10-20T18:11:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0e354311b25a85ab97e57f09c43caf87ae9fb0de72e14b062583fe2490d9a5b2"
+    },
+    {
+      "stable_anchor_id": "event:15369|quotation:506",
+      "event_id": "event:15369",
+      "quotation_id": "quotation:506",
+      "event_time": "2023-08-28T09:17:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0e9ae41597a230be8e4b6f92499b8fa552590b6569da374ec22a8b9f377142f8"
+    },
+    {
+      "stable_anchor_id": "event:26844|quotation:853",
+      "event_id": "event:26844",
+      "quotation_id": "quotation:853",
+      "event_time": "2024-07-27T09:00:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0e9db1c94a8575b483c95181f70a2b6eac51287a22314dac54c7d3fa1247bce0"
+    },
+    {
+      "stable_anchor_id": "event:20645|quotation:656",
+      "event_id": "event:20645",
+      "quotation_id": "quotation:656",
+      "event_time": "2024-01-22T13:36:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0f0394a88defd3da3dd5674b9ac1d5f409b1dfe580752e0e0df040b15ad16b57"
+    },
+    {
+      "stable_anchor_id": "event:17976|quotation:566",
+      "event_id": "event:17976",
+      "quotation_id": "quotation:566",
+      "event_time": "2023-11-15T15:56:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "0fafbc8043877ae33b68b9f448847ea49ffbc92c6a31ef0de5161faea5c87783"
+    },
+    {
+      "stable_anchor_id": "event:13487|quotation:422",
+      "event_id": "event:13487",
+      "quotation_id": "quotation:422",
+      "event_time": "2023-06-28T13:20:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "10613d2fd4e47d792f6ae4ea2cf650be860971be30c41beee99c5f36bc250378"
+    },
+    {
+      "stable_anchor_id": "event:18019|quotation:574",
+      "event_id": "event:18019",
+      "quotation_id": "quotation:574",
+      "event_time": "2023-11-16T15:01:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "10d86cf1a5b47b8f6acba9a87cdf75e371685fb3784735f324cb20bf5e53861f"
+    },
+    {
+      "stable_anchor_id": "event:17680|quotation:567",
+      "event_id": "event:17680",
+      "quotation_id": "quotation:567",
+      "event_time": "2023-11-06T21:54:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1123df8e6c6812d7413cbbabc45cfb71d24fdc0679a421258778af2f09f2e84f"
+    },
+    {
+      "stable_anchor_id": "event:27646|quotation:875",
+      "event_id": "event:27646",
+      "quotation_id": "quotation:875",
+      "event_time": "2024-09-02T21:40:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "12d5b413c3d2b0397ca74f989d2f84f0301e6c3d86e6fb1410c4b42307a0a596"
+    },
+    {
+      "stable_anchor_id": "event:19419|quotation:624",
+      "event_id": "event:19419",
+      "quotation_id": "quotation:624",
+      "event_time": "2023-12-19T15:37:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "12d81d840789928714d9c2253822ad7583a7978030b8b7e1d5458e074919bae0"
+    },
+    {
+      "stable_anchor_id": "event:22815|quotation:727",
+      "event_id": "event:22815",
+      "quotation_id": "quotation:727",
+      "event_time": "2024-04-01T07:48:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "134eb5f3802273828565777e598c1e38f3f83dccbf9bacc708fa89518024e328"
+    },
+    {
+      "stable_anchor_id": "event:8260|quotation:274",
+      "event_id": "event:8260",
+      "quotation_id": "quotation:274",
+      "event_time": "2023-01-09T13:05:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "13789969e71dc02f73802d97926d1839ba78679669185b38b9cd4c1b16acf2bb"
+    },
+    {
+      "stable_anchor_id": "event:677|quotation:30",
+      "event_id": "event:677",
+      "quotation_id": "quotation:30",
+      "event_time": "2022-05-05T13:38:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1475288515ac73dfa6a67862770a03a5a58c60e388c37f95295eb13ec72e306e"
+    },
+    {
+      "stable_anchor_id": "event:15667|quotation:512",
+      "event_id": "event:15667",
+      "quotation_id": "quotation:512",
+      "event_time": "2023-09-05T07:15:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "148f16376322b1ea8d721e8e03f24aaffd0d81df4db48d13f69c4477ee993296"
+    },
+    {
+      "stable_anchor_id": "event:17249|quotation:547",
+      "event_id": "event:17249",
+      "quotation_id": "quotation:547",
+      "event_time": "2023-10-16T18:04:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "148f60f0d29c6922b659e30bc9be59fe63de02d38e268e9817cb853e7b4e9702"
+    },
+    {
+      "stable_anchor_id": "event:9167|quotation:298",
+      "event_id": "event:9167",
+      "quotation_id": "quotation:298",
+      "event_time": "2023-02-13T09:41:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "157d0ca039814314828aab23e0817b27e35befba2ffa3cc10816a22f8e9eb28c"
+    },
+    {
+      "stable_anchor_id": "event:25692|quotation:823",
+      "event_id": "event:25692",
+      "quotation_id": "quotation:823",
+      "event_time": "2024-06-26T19:39:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "16da5390fb4ec6bd8101b8638e28d389561042f7202cdd5145e085bba6e679f9"
+    },
+    {
+      "stable_anchor_id": "event:8084|quotation:268",
+      "event_id": "event:8084",
+      "quotation_id": "quotation:268",
+      "event_time": "2023-01-02T18:57:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "16f145f9f300a666c2380341e496b1cf1075b9b8e742e7b26160da54f6fb2d0e"
+    },
+    {
+      "stable_anchor_id": "event:5175|quotation:164",
+      "event_id": "event:5175",
+      "quotation_id": "quotation:164",
+      "event_time": "2022-09-10T04:34:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "175eee78e6e3d3a4a8b6356fee53dfb5e587b504dccff00c1ff6deec8fb17cb0"
+    },
+    {
+      "stable_anchor_id": "event:20441|quotation:648",
+      "event_id": "event:20441",
+      "quotation_id": "quotation:648",
+      "event_time": "2024-01-15T08:29:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "178b43570a4630e97e7692cdb077b61ad707569380e4c92d7c9a36cab9745e92"
+    },
+    {
+      "stable_anchor_id": "event:1374|quotation:52",
+      "event_id": "event:1374",
+      "quotation_id": "quotation:52",
+      "event_time": "2022-05-24T18:31:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "17d35dd47b8b1446ca7a67baeeaaeeb4db742fae54f7c75e85c1fe8ebf56dd9e"
+    },
+    {
+      "stable_anchor_id": "event:19620|quotation:630",
+      "event_id": "event:19620",
+      "quotation_id": "quotation:630",
+      "event_time": "2023-12-25T22:39:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "17fedcb2d05fa92ff825970a8becf0e744c569ca031948e6621556108dbdfccb"
+    },
+    {
+      "stable_anchor_id": "event:9803|quotation:323",
+      "event_id": "event:9803",
+      "quotation_id": "quotation:323",
+      "event_time": "2023-03-01T19:44:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "187a362faacffee6f9277785eee2eecdce2ba1192bdb8341e5b73763a1d6808a"
+    },
+    {
+      "stable_anchor_id": "event:17246|quotation:551",
+      "event_id": "event:17246",
+      "quotation_id": "quotation:551",
+      "event_time": "2023-10-16T15:33:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "18e7510471891829fcf1014704b89879311b87e356ceb45b8c1f7eea2fad0b2e"
+    },
+    {
+      "stable_anchor_id": "event:14721|quotation:480",
+      "event_id": "event:14721",
+      "quotation_id": "quotation:480",
+      "event_time": "2023-08-07T12:22:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1a221be2401c8f341383ee8fc8f832f926965caeec4b106f2e1b41705584f466"
+    },
+    {
+      "stable_anchor_id": "event:4501|quotation:144",
+      "event_id": "event:4501",
+      "quotation_id": "quotation:144",
+      "event_time": "2022-08-24T11:05:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1ab0263d2e5bc5c3eca784f6538d0e537bb2309258e55314b140ee0ac4d0fdc4"
+    },
+    {
+      "stable_anchor_id": "event:23076|quotation:734",
+      "event_id": "event:23076",
+      "quotation_id": "quotation:734",
+      "event_time": "2024-04-11T13:16:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1b349ff9ea7e6fe5ec8102bfd7f60326a55cc00569f6f03f5533b92f90b5b601"
+    },
+    {
+      "stable_anchor_id": "event:9170|quotation:295",
+      "event_id": "event:9170",
+      "quotation_id": "quotation:295",
+      "event_time": "2023-02-13T10:44:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1c61e4729f56ddf95937c10dffd3dab3936779aae6f680fc2583498258d5ebd3"
+    },
+    {
+      "stable_anchor_id": "event:14848|quotation:482",
+      "event_id": "event:14848",
+      "quotation_id": "quotation:482",
+      "event_time": "2023-08-12T14:59:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1c924af3c8a4ce9b6ea90a29a7cd7eb3d5731e366a3ab767c321203e48918c4d"
+    },
+    {
+      "stable_anchor_id": "event:20398|quotation:649",
+      "event_id": "event:20398",
+      "quotation_id": "quotation:649",
+      "event_time": "2024-01-13T04:38:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1c9bd4a575dafa4db9dada57b64561499f59e3ba7f7e122aeba45ded48655a6e"
+    },
+    {
+      "stable_anchor_id": "event:8803|quotation:286",
+      "event_id": "event:8803",
+      "quotation_id": "quotation:286",
+      "event_time": "2023-01-30T21:33:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1caefeeb71639ab55b6a1502e921b323abdd45bafaf236de2c2bf7d506afc55c"
+    },
+    {
+      "stable_anchor_id": "event:9752|quotation:331",
+      "event_id": "event:9752",
+      "quotation_id": "quotation:331",
+      "event_time": "2023-03-01T06:02:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1d30aca808a85b671493886e4f5a9020f079ecc93448040cc822f5eaebf765b4"
+    },
+    {
+      "stable_anchor_id": "event:7003|quotation:206",
+      "event_id": "event:7003",
+      "quotation_id": "quotation:206",
+      "event_time": "2022-11-01T14:33:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1d522f7baa03f5c5134a2af4545ea64383b867997b926b5ce21107f4895353ac"
+    },
+    {
+      "stable_anchor_id": "event:5187|quotation:182",
+      "event_id": "event:5187",
+      "quotation_id": "quotation:182",
+      "event_time": "2022-09-10T15:55:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1d89da61dae7de431b4c13451ed3acac534e511d24c07d8510031684efa5cd7c"
+    },
+    {
+      "stable_anchor_id": "event:15771|quotation:516",
+      "event_id": "event:15771",
+      "quotation_id": "quotation:516",
+      "event_time": "2023-09-07T15:26:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1e06c61aee79434ee6fd84dc4d182f36b6c5e77602e025399c7fc46c193d576c"
+    },
+    {
+      "stable_anchor_id": "event:18379|quotation:590",
+      "event_id": "event:18379",
+      "quotation_id": "quotation:590",
+      "event_time": "2023-11-24T19:16:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "1f1e7ecb7e81be43fc0e7280251d5513bb4f5fe8f174258ddb9f1b3266f680b0"
+    },
+    {
+      "stable_anchor_id": "event:2435|quotation:77",
+      "event_id": "event:2435",
+      "quotation_id": "quotation:77",
+      "event_time": "2022-06-24T19:17:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2126be663ccda44ea9b4f1315af1843223326fcc12507f965cfdb9dd072e7aa6"
+    },
+    {
+      "stable_anchor_id": "event:293|quotation:13",
+      "event_id": "event:293",
+      "quotation_id": "quotation:13",
+      "event_time": "2022-04-23T21:34:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "217216e44a15dcace49d2411acae362613bfc4124848277bc853dbc57d28dbd0"
+    },
+    {
+      "stable_anchor_id": "event:655|quotation:30",
+      "event_id": "event:655",
+      "quotation_id": "quotation:30",
+      "event_time": "2022-05-05T02:01:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "236d89f699aeffe7c004a4e925e6e55d1f6dd009ce0935e6adb9a432432b914b"
+    },
+    {
+      "stable_anchor_id": "event:19310|quotation:617",
+      "event_id": "event:19310",
+      "quotation_id": "quotation:617",
+      "event_time": "2023-12-15T18:46:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "236d9836aa3435a6f33957b357e51a4188155d28158138770937f71e6fe8e78c"
+    },
+    {
+      "stable_anchor_id": "event:20642|quotation:656",
+      "event_id": "event:20642",
+      "quotation_id": "quotation:656",
+      "event_time": "2024-01-22T12:06:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "23cb640c938e10e973f4c2e3e7d64d5e14f9dfb3fa1348728ce3cfe13e3b0a24"
+    },
+    {
+      "stable_anchor_id": "event:13966|quotation:458",
+      "event_id": "event:13966",
+      "quotation_id": "quotation:458",
+      "event_time": "2023-07-15T05:50:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "24b4f3242c481d31fcac0b8f4dd6e1c39a960a3a724179bbbf7434557deccf77"
+    },
+    {
+      "stable_anchor_id": "event:19771|quotation:629",
+      "event_id": "event:19771",
+      "quotation_id": "quotation:629",
+      "event_time": "2023-12-28T19:35:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "24bf570af1f9272f12de36d0a76dde040ef40b8b5c9c7422d0f50e9820845ed0"
+    },
+    {
+      "stable_anchor_id": "event:3039|quotation:106",
+      "event_id": "event:3039",
+      "quotation_id": "quotation:106",
+      "event_time": "2022-07-17T07:13:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2529e3ed8da695bfbf7cc956fa3cd8835505916eb17c301abc6d20f8f4e115fc"
+    },
+    {
+      "stable_anchor_id": "event:22942|quotation:729",
+      "event_id": "event:22942",
+      "quotation_id": "quotation:729",
+      "event_time": "2024-04-06T05:14:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2577d0bd269370016754a1271be6e688fb8aba36f56a6401de94831feb88d33f"
+    },
+    {
+      "stable_anchor_id": "event:11612|quotation:374",
+      "event_id": "event:11612",
+      "quotation_id": "quotation:374",
+      "event_time": "2023-04-24T09:37:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "25ade382f11548819237d1d7c1cc16c8493375c1365765de9b39e3a49dc601d6"
+    },
+    {
+      "stable_anchor_id": "event:20863|quotation:659",
+      "event_id": "event:20863",
+      "quotation_id": "quotation:659",
+      "event_time": "2024-01-30T00:24:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2637305828749e9de27f4d7b92d2064efecfb151840cc1d587c1bc19462ddccd"
+    },
+    {
+      "stable_anchor_id": "event:7760|quotation:254",
+      "event_id": "event:7760",
+      "quotation_id": "quotation:254",
+      "event_time": "2022-12-16T02:37:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "276a643cdbd61dbb229e2edcd1b838bb797a6c1086b3647f1591214ae3db07d0"
+    },
+    {
+      "stable_anchor_id": "event:63|quotation:4",
+      "event_id": "event:63",
+      "quotation_id": "quotation:4",
+      "event_time": "2022-04-09T05:35:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "279a8e8544fac6a2898f983290553ff14a255935373f84414b446c1b2e301218"
+    },
+    {
+      "stable_anchor_id": "event:25643|quotation:817",
+      "event_id": "event:25643",
+      "quotation_id": "quotation:817",
+      "event_time": "2024-06-25T11:45:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "286e39673297ea824c3aa7a55e1bda17629b380881173f78a9305579d9b2349a"
+    },
+    {
+      "stable_anchor_id": "event:25152|quotation:801",
+      "event_id": "event:25152",
+      "quotation_id": "quotation:801",
+      "event_time": "2024-06-10T17:13:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "296e639f5b98a9148659040adb601b4e81b13dbbe9dd68d4289b222520c24a37"
+    },
+    {
+      "stable_anchor_id": "event:3031|quotation:106",
+      "event_id": "event:3031",
+      "quotation_id": "quotation:106",
+      "event_time": "2022-07-15T20:45:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "29b5d2f48fdaf8d243eefd02c7a6900b7949c56a979a6df4960e0e23397a0206"
+    },
+    {
+      "stable_anchor_id": "event:10579|quotation:342",
+      "event_id": "event:10579",
+      "quotation_id": "quotation:342",
+      "event_time": "2023-03-21T07:47:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2a32e1f85b26ac04f59f5ff4ec3d2f3078767b105c8e3c071132bd079cad0afd"
+    },
+    {
+      "stable_anchor_id": "event:20039|quotation:643",
+      "event_id": "event:20039",
+      "quotation_id": "quotation:643",
+      "event_time": "2024-01-04T00:20:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2a8c688b4969147185be0990b64c6e34046a9c4a622ddf495b2a0b4960cfc7a2"
+    },
+    {
+      "stable_anchor_id": "event:17953|quotation:571",
+      "event_id": "event:17953",
+      "quotation_id": "quotation:571",
+      "event_time": "2023-11-15T01:58:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2b3a05f40a61d1dd067c47ec9b2451b775a8b00f8df90be74d09275701a2d6ea"
+    },
+    {
+      "stable_anchor_id": "event:2307|quotation:87",
+      "event_id": "event:2307",
+      "quotation_id": "quotation:87",
+      "event_time": "2022-06-22T07:56:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2b3e5a2bf06eec5a147794318492d64e7350e62e4fd7028ee7d75c6ecc2328b4"
+    },
+    {
+      "stable_anchor_id": "event:27399|quotation:871",
+      "event_id": "event:27399",
+      "quotation_id": "quotation:871",
+      "event_time": "2024-08-23T07:19:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2b917361051ba99635cf8e730390996c5e96aeaf6d91095b5edac148c1b1c784"
+    },
+    {
+      "stable_anchor_id": "event:14931|quotation:486",
+      "event_id": "event:14931",
+      "quotation_id": "quotation:486",
+      "event_time": "2023-08-15T19:47:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2bd882964c4bc0b100b0563ba6f4e8e453e97a706f0cf54ccbd91d890b728c75"
+    },
+    {
+      "stable_anchor_id": "event:15494|quotation:510",
+      "event_id": "event:15494",
+      "quotation_id": "quotation:510",
+      "event_time": "2023-08-31T08:54:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2bdddaf38af230e058903bdcd23e07875de40267d15a00b2b4515a8a704c6caf"
+    },
+    {
+      "stable_anchor_id": "event:9292|quotation:301",
+      "event_id": "event:9292",
+      "quotation_id": "quotation:301",
+      "event_time": "2023-02-15T18:04:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2c46fbc6ac3f2ba0dd41b10f814ba10d7ae1ac4897dd012b844d723ec3407db2"
+    },
+    {
+      "stable_anchor_id": "event:26997|quotation:858",
+      "event_id": "event:26997",
+      "quotation_id": "quotation:858",
+      "event_time": "2024-08-02T21:08:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2d3c5380dd9533440348165a7398879573746b3bc427f08d058042e3ee37be6a"
+    },
+    {
+      "stable_anchor_id": "event:12020|quotation:390",
+      "event_id": "event:12020",
+      "quotation_id": "quotation:390",
+      "event_time": "2023-05-11T18:36:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2e402bbc4bbdc53c1b5e2f7e1ccbfe5edb41ea219905e7eb834a8efc6c222424"
+    },
+    {
+      "stable_anchor_id": "event:4618|quotation:149",
+      "event_id": "event:4618",
+      "quotation_id": "quotation:149",
+      "event_time": "2022-08-29T06:08:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "2f520dc45920f1e7f5704650a2dbb09e9e94fde14f9644946178b9ab265e358a"
+    },
+    {
+      "stable_anchor_id": "event:16375|quotation:535",
+      "event_id": "event:16375",
+      "quotation_id": "quotation:535",
+      "event_time": "2023-09-19T23:07:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "30e6abcfcfacaa9610d8e1776ab73bfdee9792e8ef0c9d60b011b2780ec783b3"
+    },
+    {
+      "stable_anchor_id": "event:25063|quotation:806",
+      "event_id": "event:25063",
+      "quotation_id": "quotation:806",
+      "event_time": "2024-06-09T00:23:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "312989f126819865a7e67d2f8abbc48e7443990d4d4c4ea817f3c39cb7dd9bae"
+    },
+    {
+      "stable_anchor_id": "event:26093|quotation:835",
+      "event_id": "event:26093",
+      "quotation_id": "quotation:835",
+      "event_time": "2024-07-10T16:54:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "3150cdba621d9e99eb01834c155694160f7a4d677367c76e6f25fa112a967e11"
+    },
+    {
+      "stable_anchor_id": "event:2329|quotation:87",
+      "event_id": "event:2329",
+      "quotation_id": "quotation:87",
+      "event_time": "2022-06-22T21:36:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "319230ac89dbcccdae46b9ed059e0cc5d7870a8b9a71622cbf0e92c291ab96ea"
+    },
+    {
+      "stable_anchor_id": "event:15846|quotation:513",
+      "event_id": "event:15846",
+      "quotation_id": "quotation:513",
+      "event_time": "2023-09-10T11:05:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "322516804f60e00850bbffe63f157f7a38aaba22fbbe1adb831ec846e0b58e23"
+    },
+    {
+      "stable_anchor_id": "event:28662|quotation:915",
+      "event_id": "event:28662",
+      "quotation_id": "quotation:915",
+      "event_time": "2024-09-27T00:34:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "32500d0397a676ec6bad40ced5550dda6549e92b049cfd607389d7f127b388ca"
+    },
+    {
+      "stable_anchor_id": "event:2954|quotation:100",
+      "event_id": "event:2954",
+      "quotation_id": "quotation:100",
+      "event_time": "2022-07-13T06:28:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "32641e9cd8fc9ad40fe1b1e6be3e4c150d2a4a02c9b5446a703b6c548e9b07fe"
+    },
+    {
+      "stable_anchor_id": "event:4148|quotation:137",
+      "event_id": "event:4148",
+      "quotation_id": "quotation:137",
+      "event_time": "2022-08-15T08:57:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "32b44f5d95839c7e81fbf0c6617c5274b89b570c5a8452b6e0fb8393af140f7c"
+    },
+    {
+      "stable_anchor_id": "event:28038|quotation:887",
+      "event_id": "event:28038",
+      "quotation_id": "quotation:887",
+      "event_time": "2024-09-13T03:29:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "32ef0dfada8cf109ebbdb5c658b577ebb69e3b02e8c01b234d7e98aecc15395a"
+    },
+    {
+      "stable_anchor_id": "event:5373|quotation:180",
+      "event_id": "event:5373",
+      "quotation_id": "quotation:180",
+      "event_time": "2022-09-14T14:33:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "33f66cb7282d2b71bfa4c76c2eba6fdca77547d52d37bad8a747db9e4ec21501"
+    },
+    {
+      "stable_anchor_id": "event:13335|quotation:427",
+      "event_id": "event:13335",
+      "quotation_id": "quotation:427",
+      "event_time": "2023-06-25T18:12:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "340acde3cacc3ecf597a49950b7ff5301578450b20519b8242520227202f47d9"
+    },
+    {
+      "stable_anchor_id": "event:1078|quotation:43",
+      "event_id": "event:1078",
+      "quotation_id": "quotation:43",
+      "event_time": "2022-05-16T09:11:00.000Z",
+      "activity": "Create Purchase Order",
+      "sampling_sha256": "348b4b2a1d27530103afee4400c327535159a0378298093ebc2d3a78d6d0df3a"
+    }
+  ]
+}

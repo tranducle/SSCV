@@ -1,0 +1,13 @@
+{
+  "version": "OM_V2_M2_SAMPLING_FREEZE_V1_3",
+  "status": "FROZEN_AFTER_REVIEW_PRE_V2_OUTCOME",
+  "candidate_count": 1128,
+  "e8_count": 500,
+  "e9_count": 100,
+  "e9_nested_in_e8": true,
+  "mapping_file_sha256": "4ee751444eb1c72df510e699c0970ce65a5996db65e5494074ddbca7db12b5ae",
+  "candidate_file_sha256": "25c39af297264c961f490356a5f1fe0417a294cbf8e2217cc46a93e091b39711",
+  "e8_file_sha256": "90fd75c5c82360f5906ab4c0e8fbc3a772a9f7ee554019b33186d4f44c270646",
+  "e9_file_sha256": "6d559253232d979633ed0ecc39fc995ba0fabd87759e5e5184fb05efcb99b864",
+  "canonical_sha256": "5c45ef4d9c8457b1074cb0bd5a1f64f3131da2e7dcf0a88f973e610b6e8f59f1"
+}
